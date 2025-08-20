@@ -1,0 +1,17 @@
+{
+  "name": "cibercity_front",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": ["apps/*", "packages/*"],
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:admin": "pnpm -C apps/admin dev",
+    "dev:store": "pnpm -C apps/store dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.1"
+}
