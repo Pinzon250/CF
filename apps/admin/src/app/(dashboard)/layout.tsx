@@ -12,7 +12,7 @@ const routes = [
 ]
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
 
-    const isActive = (path: string) => location.pathname == path;
+    const isActive = (path: string) => location.path == path;
 
     return (
         <div className="min-h-dvh grid grid-cols-1 md:grid-cols-[220px_1fr]">

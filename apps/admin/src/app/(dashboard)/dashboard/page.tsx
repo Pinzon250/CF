@@ -1,5 +1,5 @@
 export default async function DashboardPage() {
-  // Datos mock por ahora
+
   const stats = [
     { label: 'Ventas Hoy', value: '$ 0' },
     { label: 'Pedidos', value: '0' },
